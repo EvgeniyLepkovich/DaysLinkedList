@@ -5,7 +5,7 @@ import com.epam.collection.DayLinkedList;
 public class Main {
 
     public static void main(String[] args) {
-        DayLinkedList<String> days = new DayLinkedList<>();
+        DayLinkedList days = new DayLinkedList();
         days.add("Sat");
         days.add("Mon");
         days.add("Thu");

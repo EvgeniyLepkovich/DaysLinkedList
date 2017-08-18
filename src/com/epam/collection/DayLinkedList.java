@@ -7,9 +7,9 @@ import java.util.ListIterator;
 /**
  * Created by Yayheniy_Lepkovich on 8/18/2017.
  */
-public class DayLinkedList<T extends String> extends LinkedList<T> {
+public class DayLinkedList extends LinkedList<String> {
     @Override
-    public boolean add(T e) {
+    public boolean add(String e) {
         if (InnerDayValidator.validate(e)){
             super.add(e);
             return true;
@@ -29,10 +29,10 @@ public class DayLinkedList<T extends String> extends LinkedList<T> {
                 }
             }
         }
-        ListIterator<T> i = this.listIterator();
+        ListIterator<String> i = this.listIterator();
         for (String e : days) {
             i.next();
-            i.set((T) e);
+            i.set((String) e);
         }
     }
 
