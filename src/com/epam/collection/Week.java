@@ -1,4 +1,4 @@
-package com.collection;
+package com.epam.collection;
 
 /**
  * Created by Yayheniy_Lepkovich on 8/18/2017.

@@ -1,9 +1,6 @@
 package com.epam;
 
-import com.collection.DayLinkedList;
-
-import java.util.Comparator;
-import java.util.LinkedList;
+import com.epam.collection.DayLinkedList;
 
 public class Main {
 
